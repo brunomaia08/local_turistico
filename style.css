@@ -5,6 +5,7 @@
 
 body {
   background-color: #F5F4F0;
+  font-family: "Open Sans", sans-serif;
 }
 
 #page {
@@ -12,7 +13,63 @@ body {
   margin: 88px auto;
 }
 
+section + section {
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
 img {
   width: 1120px;
   border-radius: 28px;
+}
+
+h1, h2 {
+  color: #1B1B1B;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  color: #333333;
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  color: #E1624F;
+  text-transform: uppercase;
+}
+
+#description, #list {
+  border-bottom: solid 1px #D9D9D9;
+  padding-bottom: 40px;
+}
+
+#description img {
+  height: 660px;
+}
+#description p {
+  font-style: italic;
+  text-align: center;
+  margin-top: 24px;
+}
+
+#list img {
+  height: 350px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ul li {
+  margin-left: 24px;
 }
