@@ -10,11 +10,11 @@ body {
 
 #page {
   width: 1120px;
-  margin: 88px auto;
+  margin: 88px auto 65px;
 }
 
 section + section {
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 h1 {
@@ -22,30 +22,12 @@ h1 {
 }
 
 img {
-  width: 1120px;
+  width: 100%;
   border-radius: 28px;
 }
 
-h1, h2 {
-  color: #1B1B1B;
-}
-
-h2 {
-  font-size: 32px;
-}
-
-p {
-  color: #333333;
-  font-size: 16px;
-}
-
-h3 {
-  font-size: 28px;
-}
-
-h4 {
-  color: #E1624F;
-  text-transform: uppercase;
+#title h1 {
+  margin-top: 8px;
 }
 
 #description, #list {
@@ -56,20 +38,104 @@ h4 {
 #description img {
   height: 660px;
 }
+
 #description p {
   font-style: italic;
   text-align: center;
   margin-top: 24px;
 }
 
+#list {
+  padding-top: 64px;
+}
+#list h4 {
+  margin-bottom: 2px;
+}
+#subtitle p {
+  margin: 8px 0 24px;
+}
+
 #list img {
-  height: 350px;
+  height: 375px;
+  object-fit: cover;
+}
+
+h1, h2 {
+  color: #1B1B1B;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3, ol {
+  font-size: 28px;
+  font-weight: bold;
+}
+ol h3 {
+  margin: 20px 0 4px ;
+}
+h4 {
+  color: #E1624F;
+  text-transform: uppercase;
+}
+
+ol li {
+  margin-left: 30px;
+}
+
+ol img {
+  margin-top: 40px;
 }
 
 ul {
   list-style-type: disc;
+  font-size: 16px;
 }
 
 ul li {
-  margin-left: 24px;
+  margin-left: 24px;  
+}
+
+p {
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#summary {
+  text-align: center;
+}
+
+footer {
+  font-family: "Alice", serif;
+  color: #333333;
+  line-height: 150%;
+  text-align: center;
+}
+
+footer img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+ul li::marker {
+  color: #333333;
+}
+
+.blue {
+  color: #0C51A7;
+}
+
+.purple {
+  color: #591B98;
+}
+
+.orange {
+  color: #E95E10;
+}
+
+.pink {
+  color: #E5245E;
 }
